@@ -33,15 +33,53 @@
             <p class="lead mb-4">Item for Services</p>
             <form action="">
                 <div class="col-lg-10 mb-4">
-                    <div class="col-lg-1">
+                    <div class="col-lg-12">
                         <label for="engineOil" class="form-label">Engine Oil:</label>
                     </div>
-                    <div class="col-lg-8">
-                        <input type="text" name="engineOil" id="engineOil" class="form-control" placeholder="eg: Petronas Syntium 800">
+                    <div class="col-lg-12 row">
+                        <div class="col-lg-8">
+                            <input type="text" name="engineOil" id="engineOil" class="form-control text-right" value="0.00">
+                        </div>
+                        <span class="col-lg-4 form-label pt-2 px-0">RM</span>
                     </div>
-                    <span class="col-lg-1 form-label pt-2 px-0">RM</span>
+                </div>
+                <div class="col-lg-10 mb-4">
+                    <div class="col-lg-12">
+                        <label for="oilFilter" class="form-label">Oil Filter:</label>
+                    </div>
+                    <div class="col-lg-12 row">
+                        <div class="col-lg-8">
+                            <input type="text" name="oilFilter" id="oilFilter" class="form-control text-right" value="0.00">
+                        </div>
+                        <span class="col-lg-4 form-label pt-2 px-0">RM</span>
+                    </div>
+                </div>
+                <div class="col-lg-10 mb-4">
+                    <div class="col-lg-12">
+                        <label for="gearboxOil" class="form-label">Gearbox Oil:</label>
+                    </div>
+                    <div class="col-lg-12 row">
+                        <div class="col-lg-8">
+                            <input type="text" name="gearboxOil" id="gearboxOil" class="form-control text-right" value="0.00">
+                        </div>
+                        <span class="col-lg-4 form-label pt-2 px-0">RM</span>
+                    </div>
+                </div>
+                <div class="col-lg-10 mb-4">
+                    <div class="col-lg-12">
+                        <label for="powerSteeringOil" class="form-label">Power Steering Oil:</label>
+                    </div>
+                    <div class="col-lg-12 row">
+                        <div class="col-lg-8">
+                            <input type="text" name="powerSteeringOil" id="powerSteeringOil" class="form-control text-right" value="0.00">
+                        </div>
+                        <span class="col-lg-4 form-label pt-2 px-0">RM</span>
+                    </div>
                 </div>
             </form>
+        </div>
+        <div class="col-lg-12 text-center">
+            <button class="btn btn-warning" id="submitBtn">Submit</button>
         </div>
     </div>
 </div>

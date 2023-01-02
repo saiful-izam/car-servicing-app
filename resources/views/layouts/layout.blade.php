@@ -15,6 +15,10 @@
             body {
                 font-family: 'Nunito', sans-serif;
             }
+
+            .text-right {
+                text-align: right;
+            }
         </style>
     </head>
     <body>
